@@ -1,0 +1,20 @@
+# Repo root is the VCS checkout; addon files live under subject/.
+package-as: subject
+
+move-folders:
+  subject/subject: subject
+
+# CurseForge GitHub webhook reads CHANGELOG.md from repo root; packager uses it for upload notes.
+manual-changelog: CHANGELOG.md
+
+ignore:
+  - docs
+  - tests
+  - reports
+  - scripts
+  - README.md
+  - .luarc.json
+  - .github
+  - CHANGELOG.md
+
+enable-nolib-creation: no

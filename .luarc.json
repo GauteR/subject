@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LuaLS/vscode-lua/master/setting/schema.json",
+  "runtime": {
+    "version": "Lua 5.1",
+    "builtin": {
+      "basic": "default",
+      "bit": "default",
+      "bit32": "default",
+      "coroutine": "default",
+      "debug": "default",
+      "io": "default",
+      "math": "default",
+      "os": "default",
+      "package": "default",
+      "string": "default",
+      "table": "default",
+      "utf8": "default"
+    }
+  },
+  "diagnostics": {
+    "globals": [
+      "Subject",
+      "DEFAULT_CHAT_FRAME",
+      "GetNumMacros",
+      "GetSendMailItem",
+      "GetSendMailMoney",
+      "ATTACHMENTS_MAX_SEND",
+      "SendSubjectEditBox",
+      "ipairs",
+      "_G",
+      "InCombatLockdown",
+      "CreateMacro",
+      "EditMacro",
+      "GetSpellInfo",
+      "IsSpellKnown",
+      "IsPlayerSpell",
+      "GetTime",
+      "ShowMacroFrame",
+      "ShowUIPanel",
+      "MacroFrame",
+      "MacroFrame_LoadUI",
+      "MacroFrame_Show",
+      "MacroFrame_SelectMacro",
+      "MacroFrame_Update",
+      "MacroFrame_SetCharacterMacros",
+      "MacroFrameTab2",
+      "PanelTemplates_SetTab",
+      "MAX_ACCOUNT_MACROS",
+      "UnitClass",
+      "UnitRace",
+      "CreateFrame",
+      "BackdropTemplate",
+      "UIParent",
+      "UISpecialFrames",
+      "tinsert",
+      "SlashCmdList",
+      "SLASH_SUBJECT1",
+      "GameFontHighlight",
+      "GameFontNormal",
+      "GameFontNormalLarge",
+      "GameFontNormalSmall",
+      "GameFontHighlightSmall",
+      "GameTooltip",
+      "Settings",
+      "SettingsPanel",
+      "HideUIPanel",
+      "C_AddOns",
+      "GetAddOnMetadata"
+    ]
+  },
+
+  "workspace": {
+    "checkThirdParty": false
+  }
+}

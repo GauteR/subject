@@ -1,0 +1,19 @@
+reports/
+
+# BigWigs packager working directory (keep release.sh + .env.example tracked)
+.release/*
+!.release/release.sh
+!.release/.env.example
+
+# Local secrets and zip artifacts
+.release/.env
+.env
+*.zip
+
+# Machine-specific Forever AddOns path for scripts/publish-local.ps1
+scripts/forever-addons.path
+
+
+# Local git worktrees
+.worktree/
+

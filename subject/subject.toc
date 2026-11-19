@@ -1,0 +1,12 @@
+## Interface: 16001
+## Title: Subject
+## Notes: Fills the mail subject from the first attached item or the money amount.
+## Author: GauteR
+## Version: @project-version@
+## DefaultState: enabled
+## IconTexture: Interface\Icons\INV_Letter_15
+
+Config.lua
+Locale/enUS.lua
+SubjectBuilder.lua
+Core.lua

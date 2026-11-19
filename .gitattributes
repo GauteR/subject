@@ -1,0 +1,2 @@
+*.sh text eol=lf
+.release/release.sh text eol=lf
