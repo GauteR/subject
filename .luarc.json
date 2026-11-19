@@ -29,6 +29,8 @@
       "ipairs",
       "_G",
       "hooksecurefunc",
+      "MoneyInputFrame_GetCopper",
+      "SendMailMoney",
       "C_Timer",
       "SendMailFrame_Update",
       "SLASH_SUBJECT1",

@@ -28,12 +28,25 @@ local function FindFirstAttachment()
   return nil, nil
 end
 
+-- GetSendMailMoney() only returns the amount at send time, so read the money
+-- input widget (what the player has typed so far) instead.
+local function ReadTypedCopper()
+  if MoneyInputFrame_GetCopper and SendMailMoney then
+    return MoneyInputFrame_GetCopper(SendMailMoney) or 0
+  end
+  local function Box(name)
+    local box = _G[name]
+    return box and tonumber(box:GetText()) or 0
+  end
+  return Box("SendMailMoneyGold") * 10000 + Box("SendMailMoneySilver") * 100 + Box("SendMailMoneyCopper")
+end
+
 local function BuildState()
   local itemName, itemCount = FindFirstAttachment()
   return {
     itemName = itemName,
     itemCount = itemCount,
-    copper = GetSendMailMoney and GetSendMailMoney() or 0,
+    copper = ReadTypedCopper(),
   }
 end
 
