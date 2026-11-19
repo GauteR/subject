@@ -13,5 +13,5 @@ Subject.Config = {
   -- Blizzard limit for the subject edit box.
   MAX_SUBJECT_LENGTH = 64,
   ADDON_NAME = "Subject",
-  VERSION = "0.1.0",
+  VERSION = "1.0.0",
 }
